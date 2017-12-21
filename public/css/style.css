@@ -55,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #5a5a5a;
+    color: #111E6C;
     font-family: "Montez", cursive;
     font-weight: 400;
     margin: 0 0 30px 0;
@@ -180,7 +180,7 @@ figure {
     bottom: 0;
     right: 0;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(14, 3, 95, 0.8);
 }
 
 .fh5co-cover {
@@ -215,11 +215,11 @@ figure {
 }
 
 .fh5co-cover .display-tc h1 {
-    color: #fff;
+    color: rgba(233, 229, 4, 0.86);
 }
 
 .fh5co-cover .display-tc h2 {
-    color: #fff;
+    color: rgba(233, 229, 4, 0.86);
     font-size: 80px;
     margin-bottom: 30px;
     font-weight: 300 !important;
@@ -236,7 +236,7 @@ figure {
 }
 
 .fh5co-cover .display-tc p {
-    color: #fff;
+    color: rgba(233, 229, 4, 0.86);
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 7px;
@@ -543,7 +543,7 @@ figure {
 }
 
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
-    color: #F69D9D !important;
+    color: #111E6C !important;
 }
 
 #fh5co-couple,
@@ -573,7 +573,7 @@ figure {
 }
 
 .fh5co-section-gray {
-    background: #F6FAF7;
+    background: #F1F1E9;
 }
 
 .heading-section {
@@ -585,7 +585,7 @@ figure {
     font-size: 50px;
     font-weight: 300;
     position: relative;
-    color: #F69D9D;
+    color: #111E6C;
 }
 
 .heading-section p {
@@ -629,7 +629,7 @@ figure {
 #fh5co-countdown .countdown {
     margin-bottom: 0;
     font-size: 80px;
-    color: #fff;
+    color: #DFDF05;
 }
 
 #fh5co-countdown .countdown span {
@@ -711,13 +711,13 @@ figure {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: #F1F1E9;
 }
 
 #fh5co-started .form-control {
     background: rgba(0, 0, 0, 0.2);
     border: none !important;
-    color: #fff;
+    color: #111E6C;
     font-size: 16px !important;
     width: 100%;
     -webkit-transition: 0.5s;
@@ -726,21 +726,21 @@ figure {
 }
 
 #fh5co-started .form-control::-webkit-input-placeholder {
-    color: #fff;
+    color: #111E6C;
 }
 
 #fh5co-started .form-control:-moz-placeholder {
     /* Firefox 18- */
-    color: #fff;
+    color: #111E6C;
 }
 
 #fh5co-started .form-control::-moz-placeholder {
     /* Firefox 19+ */
-    color: #fff;
+    color: #111E6C;
 }
 
 #fh5co-started .form-control:-ms-input-placeholder {
-    color: #fff;
+    color: #111E6C;
 }
 
 #fh5co-started .form-control:focus {
@@ -751,7 +751,7 @@ figure {
     height: 54px;
     border: none !important;
     background: #111E6C;
-    color: #fff;
+    color: #DFDF05;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
@@ -775,11 +775,11 @@ figure {
 
 #fh5co-started .heading-section h2 {
     margin-bottom: 20px;
-    color: rgba(255, 255, 255, 0.9);
+    color: #111E6C;
 }
 
 #fh5co-started .heading-section p {
-    color: rgba(255, 255, 255, 0.7);
+    color: #111E6C;
 }
 
 .groom-men img {
@@ -923,7 +923,7 @@ figure {
 }
 
 #footer p {
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
 
@@ -938,7 +938,7 @@ figure {
 }
 
 #footer h2 {
-    color: #fff;
+    color: #DFDF05;
     font-size: 60px;
 }
 
@@ -952,7 +952,7 @@ figure {
 
 .btn.btn-primary {
     background: #111E6C;
-    color: #fff;
+    color: #DFDF05;
     border: none !important;
     border: 2px solid transparent !important;
 }
@@ -962,7 +962,7 @@ figure {
 .btn.btn-primary:focus {
     box-shadow: none;
     background: #111E6C;
-    color: #fff !important;
+    color: #DFDF05 !important;
 }
 
 .btn:hover,
