@@ -2,15 +2,14 @@
     <div class="container">
         <div class="nav-header">
             <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-            <h1 id="fh5co-logo"><a href="index.html">Casamento</a></h1>
+            <h1 id="fh5co-logo"><%=link_to "Casamento", root_path%></h1>
             <!-- START #fh5co-menu-wrap -->
             <nav id="fh5co-menu-wrap" role="navigation">
                 <ul class="sf-menu" id="fh5co-primary-menu">
-                    <li class="active"><a href="index.html">O Casamento</a></li>
-                    <li><a href="groom-bride.html" class="fh5co-sub-ddown">Noivo &amp; Noiva</a></li>
-                    <li><a href="when-where.html">Quando &amp; Onde</a></li>
-                    <li><a href="guest.html">Convidado</a></li>
-                    <li><a href="gallery.html">Fotos</a></li>
+                    <li class="active"><%=link_to "O Casamento", root_path%></li>
+                    <!--<li><a href="groom-bride.html" class="fh5co-sub-ddown">Noivo &amp; Noiva</a></li>-->
+                    <li><%=link_to "Onde", when_where_path%></li>
+                    <li><%=link_to "Fotos e Videos", gallery_path%></li>
                 </ul>
             </nav>
         </div>
