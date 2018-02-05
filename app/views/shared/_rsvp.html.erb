@@ -1,0 +1,32 @@
+<div id="fh5co-started" style="background-image:url(images/cover_bg_2.jpg);" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row animate-box">
+            <div class="col-md-8 col-md-offset-2 text-center heading-section">
+                <h2>RSVP</h2>
+                <p>Por favor preencha o formulário abaixo informando se poderá comparecer. Obrigado!
+            </div>
+        </div>
+        <div class="row animate-box">
+                <div class="col-md-10 col-md-offset-1">
+                    <%= form_for @rsvp, url: rsvp_index_path, html: {class: "form-inline"} do |f| %>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="form-group">
+                            <%=label_tag 'name', 'Nome', class: "sr-only"%>
+                            <%= f.text_field :name, type:"name", class: "form_control", placeholder: "Name" %>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                            <div class="form-group">
+                                <%=label_tag 'email', 'E-mail', class: "sr-only"%>
+                                <%= f.text_field :email, type:"email", class: "form_control", placeholder: "Email" %>
+                            </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <%= f.submit "Irei comparecer", class: "btn btn-primary btn-block" %>
+                    </div>
+                    <% end %>
+                </div>
+            </div>
+    </div>
+</div>

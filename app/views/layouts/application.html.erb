@@ -76,6 +76,11 @@
 <body>
     <div id="fh5co-wrapper">
         <div id="fh5co-page">
+          <%if @message != nil && @mesage != ""%>
+              <div class="alert alert-warning" role="alert">
+                <%=@message%>
+              </div>
+          <%end%>
           <%= yield :pre_menu %>
           <%= render "shared/menu" %>
           <%= yield %>
