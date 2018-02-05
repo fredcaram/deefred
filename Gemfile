@@ -28,7 +28,7 @@ gem 'jquery-rails'
 gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'modernizr-rails'
 
-gem 'mongoid', '~> 6.1.0'
+gem 'mongoid', '~> 6.2.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
