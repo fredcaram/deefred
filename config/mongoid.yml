@@ -164,5 +164,3 @@ production:
         read:
           mode: :primary
         max_pool_size: 2
-        skip_version_check: true
-        safe: true
