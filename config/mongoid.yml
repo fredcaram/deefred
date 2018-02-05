@@ -150,7 +150,7 @@ test:
     default:
       database: deefred_test
       hosts:
-        - mongodb://heroku_x4hd1gd7:casdeefred_2018@ds225038.mlab.com:25038/heroku_x4hd1gd7
+        - localhost:27017
       options:
         read:
           mode: :primary
@@ -159,10 +159,4 @@ test:
 production:
   clients:
     default:
-      database: deefred
-      hosts:
-        - mongodb://heroku_x4hd1gd7:casdeefred_2018@ds225038.mlab.com:25038/heroku_x4hd1gd7
-      options:
-        read:
-          mode: :primary
-        max_pool_size: 1
+      uri: <%= ENV['MONGOLAB_URI'] %>
