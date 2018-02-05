@@ -160,3 +160,7 @@ production:
   clients:
     default:
       uri: <%= ENV['MONGOLAB_URI'] %>
+      options:
+        read:
+          mode: :primary
+        max_pool_size: 1
