@@ -31,6 +31,8 @@ gem 'modernizr-rails'
 gem 'mongoid', '~> 6.2.0'
 gem "bson_ext"
 
+gem "azure-storage-blob", '~> 1.0.1'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
