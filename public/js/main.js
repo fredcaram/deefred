@@ -60,7 +60,8 @@
 			} else {
 				$('body').addClass('fh5co-offcanvas');
 			}
-			// event.preventDefault();
+			event.preventDefault();
+			window.scrollTo(0, 0);
 
 		});
 
