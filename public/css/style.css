@@ -598,6 +598,7 @@ figure {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
+    width: 90% !important;
 }
 
 #fh5co-couple h3 {
